@@ -5,10 +5,6 @@
 
 }
 
-body {
-
-  /* max-width: 100%; */
-}
 
 /* Hero and header section */
 .start_teaching,
@@ -135,12 +131,6 @@ body {
   margin: 2rem;
 }
 
-/* .sub_section_a1{
-  } */
-/* .sub_section_a1 p{
-    padding-bottom: 1rem;
-  
-  } */
 
 .sub_section_a2 {
   border-top: 1rem;
@@ -273,6 +263,21 @@ p {
   position: absolute;
   left: 77.4rem;
   bottom: 11.6rem;
+  
+}
+
+.arrow2_position{
+  position: relative;
+}
+.arrow2{
+  border: 1px solid black;
+  background: black;
+  width: 2.1rem;
+  height: 2.2rem;
+  border-radius: 100px;
+  position: absolute;
+  left: 79rem;
+  bottom: -51.5rem;
   
 }
 
@@ -417,11 +422,11 @@ p {
   border: 1px solid hsl(0, 6%, 94%);
   background: hsl(0, 6%, 94%);
   height: 28rem;
-  /* width: 500rem; */
-  /* padding: 6rem 2rem 0rem 6rem; */
-  padding-top: 6rem;
+  
+  /* padding: 6rem 0rem ; */
+  padding-top: 4rem;
   padding-bottom: 6rem;
-  padding-left: 2rem;
+  padding-left: 4rem;
 }
 
 .category h4 {
