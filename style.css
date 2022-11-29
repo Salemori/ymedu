@@ -26,7 +26,7 @@
   }
   
   .header1 {
-    padding: 1rem 1.5rem;
+    padding: 0.7rem 1.5rem;
   }
   
   .header1 a, .header1 a:active, .header1 a:visited{
@@ -75,7 +75,6 @@
   .content_text,
   .upskill_text ul, .start_teaching p {
     font-size: 20px;
-    /* font-weight: 100; */
   }
   
   .header_input {
@@ -83,28 +82,48 @@
     height: 50px;
     border-radius: 25px;
     padding: 15px;
-  
-  }
-  
-  .icon {
+    background-image: url("./image/new_search.png");
+    background-repeat: no-repeat;
+    text-indent: 20px;
     border: 1px solid black;
-    padding: 9px;
-  
-    /* margin-top: 10px; */
+    padding-left: 1.5rem;
+    background-size: 18px;
+    background-position: left 3% bottom 49%;
   }
+
+  .header_input img{
+    width: 20rem;
+   }
+   
+  /* #icon {
+    padding: 9px;
+    height: 15px; 
+    position: relative;
+  } */
   
+  .icon_div{
+    border: 1px solid black;
+    padding: 3px 3px 1px 3px;
+    height: 35px; 
+  } 
+
   .header_button {
     font-size: 15px;
-    font-weight: 30px;
+    font-weight: 700;
     padding: 8px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    height: 2.3rem;
   }
   
   .header_button2 {
     font-size: 15px;
-    font-weight: 30px;
+    font-weight: 700;
     padding: 8px;
     background: black;
     color: white;
+    height: 1.5 rem;
   }
   
   /* Tooltip container */
