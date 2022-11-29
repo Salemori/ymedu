@@ -155,6 +155,22 @@
   p {
     margin-bottom: 1rem;
   }
+
+  .sub_section_a2_text p{
+    font-size: 18px;
+    line-height: 1.3rem;
+    width: 52rem;
+  }
+  .sub_section_a2_text button{
+    font-weight: 700;
+
+    width: 7rem;
+    height: 2rem;
+    background: white;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
   
   .python_all{
     display: flex;
@@ -162,15 +178,13 @@
     align-content: space-between;
     justify-content: left;
     column-gap: 2rem;
-  
-    font-size: 1.2rem;
-    font-weight: 700;
-    
+    font-size: 1.1rem;
+    font-weight: 900;
   }
   
   .python_all a{
     text-decoration: none;
-    color: rgb(126, 122, 122);
+    color: rgb(77, 77, 77);
   }
   
   .python_all a:hover{
