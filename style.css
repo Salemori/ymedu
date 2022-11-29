@@ -414,6 +414,17 @@ p {
 
 }
 
+.sub_category{
+  line-height: 25px;
+}
+.sub_category p{
+  color: rgb(99, 99, 99);
+  font-size:medium;
+}
+.sub_category{
+  line-height: 25px;
+}
+
 .social_cover {
   align-content: space-between;
   justify-content: center;
