@@ -421,8 +421,8 @@ p {
   color: rgb(99, 99, 99);
   font-size:medium;
 }
-.sub_category{
-  line-height: 25px;
+.category .h_four{
+  font-size: 1.3rem;
 }
 
 .social_cover {
