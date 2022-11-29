@@ -278,7 +278,8 @@ p {
 }
 
 .course_carousel{
-  display: flex;
+  display:flex;
+  flex-direction: row;
 }
 
 .carousel_image,
