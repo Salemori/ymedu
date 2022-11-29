@@ -14,7 +14,7 @@ body {
 .start_teaching,
 .upskill,
 .header1,
-.course_carousel,
+
 .min_section,
 .min_section_content,
 .social_proof {
@@ -148,7 +148,7 @@ body {
   border: 1px solid gray;
   margin-top: 1rem;
   padding: 2rem 0rem 4rem 1.5rem;
-
+  position: relative;
 }
 
 .sub_section_a2_text {
@@ -261,6 +261,26 @@ p {
   display: flex;
 }
 
+.second{
+  border: 1px solid rgba(128, 128, 128, 0.61);
+}
+
+.arrow{
+  border: 1px solid black;
+  background: black;
+  width: 2.1rem;
+  height: 2.2rem;
+  border-radius: 100px;
+  position: absolute;
+  left: 77.4rem;
+  bottom: 11.6rem;
+  
+}
+
+.course_carousel{
+  display: flex;
+}
+
 .carousel_image,
 .inner_carousel {
   width: 14rem;
@@ -334,7 +354,7 @@ p {
   color: black;
   text-align: left;
   padding: 1.3rem 1.1rem 1.1rem 1.1rem;
-  border-radius: 6px;
+  border-radius: 2px;
   border-color: gray white white gray;
   border: 1px inset;
 
@@ -421,6 +441,10 @@ p {
   color: rgb(99, 99, 99);
   font-size:medium;
 }
+/* .sub_category a{
+  color: rgba(137, 43, 226, 0.644);
+  font-size:medium;
+} */
 .category .h_four{
   font-size: 1.3rem;
 }
@@ -436,7 +460,7 @@ p {
 
 .social_cover p {
   font-size: 18px;
-  color: gray;
+  /* color: black; */
 }
 
 .upskill_text ul {
